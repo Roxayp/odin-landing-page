@@ -103,6 +103,7 @@ main h2 {
 
 .card-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -116,6 +117,7 @@ main h2 {
     flex-direction: column;
     align-items: center;
     gap: .5em;
+    margin: 30px;
 }
 
 .square {
